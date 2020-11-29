@@ -1,5 +1,7 @@
-# portfolio-jaz
-
+## portfolio-jaz
+```
+project used vue and tailwind css
+```
 ## Project setup
 ```
 npm install
