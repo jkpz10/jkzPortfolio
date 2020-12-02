@@ -14,7 +14,7 @@
 						<h1 class="text-3xl font-bold pt-8 lg:pt-0">{{profileDetails.name}}</h1>
 						<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-blue-500 opacity-25"></div>
 						<!-- job position -->
-						<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
+						<p class="pt-4 sm:text-base text-sm font-bold flex items-center justify-center lg:justify-start">
 							<i class="fas fa-suitcase pr-4 text-blue-600"></i> {{profileDetails.jobDesc}}
 						</p>
 						<!-- location -->
@@ -31,20 +31,20 @@
 
 						<p class="pt-8 text-sm">{{profileDetails.shortDesc}}</p>
 
-						<div class="pt-5 pb-8 grid grid-cols-2">
+						<div class="pt-5 pb-8">
 							<a class="cursor-pointer bg-blue-600 font-bold hover:bg-blue-900 px-4 py-2 rounded-full text-white transition-all w-2/3 text-sm text-center" target="_blank" href="https://drive.google.com/file/d/1xFSQ8ipVw53Jo2IFkibVF0bHuCDetXPS/view?usp=sharing">
 								Download CV
 							</a> 
 						</div>
 
 						<!-- social links -->
-						<div class="flex items-center lg:pb-0 lg:w-full mx-auto pb-16 w-4/5">
-							<img class="w-12 mx-3" src="@/assets/img/icons/vue.png" alt="vue">
-							<img class="w-12 mx-3" src="@/assets/img/icons/tailwindcss.png" alt="tailwindcss">
-							<img class="w-12 mx-3" src="@/assets/img/icons/angular.png" alt="angular">
-							<img class="w-12 mx-3" src="@/assets/img/icons/wordpress.png" alt="wordpress">
-							<img class="w-12 mx-3" src="@/assets/img/icons/bootstrap.png" alt="bootstrap">
-							<img class="w-12 mx-3" src="@/assets/img/icons/laravel.png" alt="laravel">
+						<div class="flex justify-between items-center lg:pb-0 lg:w-full mx-auto sm:pb-16 pb-6 w-4/5">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/vue.png" alt="vue">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/tailwindcss.png" alt="tailwindcss">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/angular.png" alt="angular">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/wordpress.png" alt="wordpress">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/bootstrap.png" alt="bootstrap">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/laravel.png" alt="laravel">
 						</div>
 						
 						<!-- Use https://simpleicons.org/ to find the svg for your preferred product --> 
@@ -132,7 +132,7 @@
 			</div>
 
 			<!-- Scroll up Pin to bottom right corner -->
-			<div v-if="scrolled" class="text-white sticky bottom-7 text-right w-11/12 mx-auto p-4">
+			<div v-if="scrolled" class="text-blue-900 sticky bottom-7 text-right w-11/12 mx-auto p-4">
 				<a href="#home">
 					<i class="fas fa-chevron-up w-0 mx-auto text-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
 				</a>
