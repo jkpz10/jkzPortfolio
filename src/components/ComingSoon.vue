@@ -19,10 +19,8 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'Comming Soon',
+  
 }
 </script>
 
