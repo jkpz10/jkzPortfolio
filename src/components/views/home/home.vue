@@ -139,7 +139,7 @@
 			</div>
 
 			<div class="text-gray-200 flex p-5 text-sm">
-				Built with <img class="w-6 mx-3" src="@/assets/img/icons/vue.png" alt="vue">
+				Built with <img class="w-6 h-5 mx-3" src="@/assets/img/icons/vue.png" alt="vue">
 			</div>
 		</div>
 	</div>
