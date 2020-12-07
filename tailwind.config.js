@@ -8,7 +8,7 @@ module.exports = {
     ],
     defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
   },
