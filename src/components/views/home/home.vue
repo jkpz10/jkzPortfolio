@@ -37,13 +37,13 @@
 							</a> 
 						</div>
 
-						<!-- social links -->
+						<!-- Tools links -->
 						<div class="flex justify-between items-center lg:pb-0 lg:w-full mx-auto sm:pb-16 pb-6 w-4/5">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/vue.png" alt="vue">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/nuxt.svg" alt="nuxt">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/alpine.png" alt="alpine">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/tailwindcss.png" alt="tailwindcss">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/angular.png" alt="angular">
-							<img class="sm:w-12 w-6" src="@/assets/img/icons/wordpress.png" alt="wordpress">
-							<img class="sm:w-12 w-6" src="@/assets/img/icons/bootstrap.png" alt="bootstrap">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/laravel.png" alt="laravel">
 						</div>
 						
@@ -63,8 +63,10 @@
 				
 				<!-- Scroll down to middle -->
 				<div class="text-white text-center max-w-4xl w-full bottom-16 p-4 flex flex-col">
-					<a href="#project">
-						<i class="fas fa-chevron-down w-0 mx-auto text-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
+					
+					<a href="#project" class="flex flex-col">
+						<small class="pb-1.5">Scroll down</small>
+						<i class="fas fa-chevron-down relative right-3 w-0 mx-auto text-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
 					</a>
 				</div>
 				
@@ -163,7 +165,7 @@ export default {
 				name: 'Jazer Kemuel Zayas',
 				jobDesc: 'Web Developer (Advance Front-End)',
 				location: 'Cagayan De oro, Philippines',
-				shortDesc: '3 years professional experience as Web developer with robust problem-solving skills and proven experience in creating and designing Web Applications with vueJs and tailwindCSS and still in the process of learning React development.'
+				shortDesc: '3+ years experience as front end web developer. I am a heavy user of development tools like vueJs/nuxtJs for complex User interface, AlpineJS for a little sprinkle of DOM reactivity and behavior paired with tailwindCSS to rapidly build modern websites. Also includes a liitle bit of angular and laravel.'
 			}
 		}
 	},
