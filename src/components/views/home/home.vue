@@ -32,7 +32,7 @@
 						<p class="pt-8 text-sm">{{profileDetails.shortDesc}}</p>
 
 						<div class="pt-5 pb-8">
-							<a class="cursor-pointer bg-blue-600 font-bold hover:bg-blue-900 px-4 py-2 rounded-full text-white transition-all w-2/3 text-sm text-center" target="_blank" href="https://drive.google.com/file/d/1xFSQ8ipVw53Jo2IFkibVF0bHuCDetXPS/view?usp=sharing">
+							<a class="cursor-pointer bg-blue-600 font-bold hover:bg-blue-900 px-4 py-2 rounded-full text-white transition-all w-2/3 text-sm text-center" target="_blank" href="https://drive.google.com/file/d/1gNSK2YcdYJTW0GZEnonk5XYhGCp6T3dg/view?usp=sharing">
 								Download CV
 							</a> 
 						</div>
