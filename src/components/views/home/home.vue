@@ -66,7 +66,7 @@
 					
 					<a href="#project" class="flex flex-col">
 						<small class="pb-1.5">Scroll down</small>
-						<i class="fas fa-chevron-down relative right-3 w-0 mx-auto text-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
+						<i class="animate-bounce fas fa-chevron-down relative right-3 w-0 mx-auto text-3xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
 					</a>
 				</div>
 				
