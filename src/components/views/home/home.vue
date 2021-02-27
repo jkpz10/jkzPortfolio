@@ -32,7 +32,7 @@
 						<p class="pt-8 text-sm">{{profileDetails.shortDesc}}</p>
 
 						<div class="pt-5 pb-8">
-							<a class="cursor-pointer bg-blue-600 font-bold hover:bg-blue-900 px-4 py-2 rounded-full text-white transition-all w-2/3 text-sm text-center" target="_blank" href="https://drive.google.com/file/d/1xFSQ8ipVw53Jo2IFkibVF0bHuCDetXPS/view?usp=sharing">
+							<a class="cursor-pointer bg-blue-600 font-bold hover:bg-blue-900 px-4 py-2 rounded-full text-white transition-all w-2/3 text-sm text-center" target="_blank" href="https://drive.google.com/file/d/1gNSK2YcdYJTW0GZEnonk5XYhGCp6T3dg/view?usp=sharing">
 								Download CV
 							</a> 
 						</div>
@@ -66,7 +66,7 @@
 					
 					<a href="#project" class="flex flex-col">
 						<small class="pb-1.5">Scroll down</small>
-						<i class="fas fa-chevron-down relative right-3 w-0 mx-auto text-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
+						<i class="animate-bounce fas fa-chevron-down relative right-3 w-0 mx-auto text-3xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 cursor-pointer"></i>
 					</a>
 				</div>
 				
