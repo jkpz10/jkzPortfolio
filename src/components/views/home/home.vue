@@ -41,10 +41,10 @@
 						<div class="flex justify-between items-center lg:pb-0 lg:w-full mx-auto sm:pb-16 pb-6 w-4/5">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/vue.png" alt="vue">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/nuxt.svg" alt="nuxt">
+							<img class="sm:w-12 w-6" src="@/assets/img/icons/react.png" alt="react">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/alpine.png" alt="alpine">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/tailwindcss.png" alt="tailwindcss">
 							<img class="sm:w-12 w-6" src="@/assets/img/icons/angular.png" alt="angular">
-							<img class="sm:w-12 w-6" src="@/assets/img/icons/laravel.png" alt="laravel">
 						</div>
 						
 						<!-- Use https://simpleicons.org/ to find the svg for your preferred product --> 
