@@ -32,6 +32,30 @@ export default {
       sample: false,
       projects : [
 				{
+          img: require('@/assets/img/projectsThumbnail/kitalulus.png'),
+          subTitle:'ReactJs Redux NextJs',
+          title: 'Kitalulus - Web Application ( Admin Dashbaord, Consumer App)',
+          description: `Achieve your dream to become a civil servant with KitaLulus! Join the Bimbel KitaLulus! We provide interactive online programs to help you become a civil servant. There are CPNS tutoring, PPPK teacher tutoring and official school tutoring.`,
+          github:'https://kitalulus.com/'
+
+				},
+				{
+          img: require('@/assets/img/projectsThumbnail/vitacorpo.png'),
+          subTitle:'VueJs NuxtJs Vuex',
+          title: 'VitaCorpo - Web Application (Admin Dashboard)',
+          description: `COVID-19 RESPONSE MANAGEMENT VitaCorpo simplifies and automates the hundreds of tasks involved in managing your daily COVID-19 response. I am also one of the front end dev working on the admin dashboard application.`,
+          github:'https://vitacorpo.com/'
+
+				},
+				{
+          img: require('@/assets/img/projectsThumbnail/mojipass.png'),
+          subTitle:'VueJs NuxtJs',
+          title: 'Mojipass',
+          description: `Mojipass is a frictionless platform for content providers and merchants to attract new customers through temporary, free, privacy-friendly, instant access to streaming services.`,
+          github:'https://mojipass.com/'
+
+				},
+				{
           img: require('@/assets/img/projectsThumbnail/dasboardmednefits.png'),
           subTitle:'VueJs AngularJs Laravel',
           title: 'Mednefits App Migration',
