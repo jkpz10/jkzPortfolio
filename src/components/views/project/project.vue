@@ -36,7 +36,7 @@ export default {
           subTitle:'ReactJs Redux NextJs',
           title: 'Kitalulus - Web Application ( Admin Dashbaord, Consumer App)',
           description: `Achieve your dream to become a civil servant with KitaLulus! Join the Bimbel KitaLulus! We provide interactive online programs to help you become a civil servant. There are CPNS tutoring, PPPK teacher tutoring and official school tutoring.`,
-          github:'https://kitalulus.com/'
+          github:'https://shop.kitalulus.com/'
 
 				},
 				{
@@ -60,7 +60,7 @@ export default {
           subTitle:'VueJs AngularJs Laravel',
           title: 'Mednefits App Migration',
           description: `App migration in their admin portal, the current app of mednefits been using angularJs from the start and company is growing fast and app is getting slower due to outdated version of angular, I'm part of the project whos working to migrate the app from angularJs to VueJs 2`,
-          github:'https://medicloud.sg/'
+          github:'https://www.mednefits.com/login/'
 
 				},
 				{
