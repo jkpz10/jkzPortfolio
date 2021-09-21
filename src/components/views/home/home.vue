@@ -1,7 +1,7 @@
 <template>
 	<div :class="{'dark':darkMode}">
 		<div class="relative body font-sans antialiased text-gray-900 dark:text-gray-100 leading-normal tracking-wider bg-cover bg-gray-900 dark:bg-gray-800">
-			<div id="home" class="realative max-w-4xl flex items-center h-auto flex-wrap mx-auto py-12 lg:my-0">
+			<div id="home" class="realative max-w-4xl flex h-auto flex-wrap mx-auto py-12 lg:my-0">
 				
 				<!--Main Col-->
 				<div class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white dark:bg-gray-900 opacity-75 mx-6 lg:mx-0">
@@ -18,15 +18,18 @@
 							<i class="fas fa-suitcase pr-4 text-blue-600"></i> {{profileDetails.jobDesc}}
 						</p>
 						<!-- location -->
-						<p class="pt-2 text-gray-600 dark:text-gray-100 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
+						<p class="pt-2 text-gray-600 dark:text-gray-100 text-sm lg:text-sm flex items-center justify-center lg:justify-start">
 							<i class="fas fa-globe-asia text-blue-600 pr-4"></i> {{profileDetails.location}}
 						</p>
 						<!-- contact -->
-						<p class="pt-2 text-gray-600 dark:text-gray-100 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
+						<p class="pt-2 text-gray-600 dark:text-gray-100 text-sm lg:text-sm flex items-center justify-center lg:justify-start">
 							<i class="far fa-paper-plane text-blue-600 pr-4"></i> <a class="underline" href="mailto:jazer.zayas10@gmail.com">jazer.zayas10@gmail.com</a>
 						</p>
-						<p class="pt-2 text-gray-600 dark:text-gray-100 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
+						<p class="pt-2 text-gray-600 dark:text-gray-100 text-sm lg:text-sm flex items-center justify-center lg:justify-start">
 							<i class="fab fa-github text-blue-600 pr-4"></i> <a target="_blank" href="https://github.com/jkpz10">jkpz10</a>
+						</p>
+						<p class="pt-2 text-gray-600 dark:text-gray-100 text-sm lg:text-sm flex items-center justify-center lg:justify-start">
+							<i class="fab fa-npm text-blue-600 pr-4"></i> <a target="_blank" href="https://www.npmjs.com/~jazzayas">jazzayas</a>
 						</p>
 
 						<p class="pt-8 text-sm">{{profileDetails.shortDesc}}</p>
@@ -56,7 +59,7 @@
 				<!--Img Col-->
 				<div class="w-full lg:w-2/5">
 					<!-- Big profile image for side bar (desktop) -->
-					<img :src="profileImg" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+					<img :src="profileImg" class="object-cover rounded-none lg:rounded-r-lg h-full shadow-2xl hidden lg:block">
 					<!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
 					
 				</div>
@@ -165,7 +168,7 @@ export default {
 				name: 'Jazer Kemuel Zayas',
 				jobDesc: 'Web Developer (Advance Front-End)',
 				location: 'Cagayan De oro, Philippines',
-				shortDesc: '3+ years experience as front end web developer. I am a heavy user of development tools like vueJs/nuxtJs for complex User interface, AlpineJS for a little sprinkle of DOM reactivity and behavior paired with tailwindCSS to rapidly build modern websites. Also includes a liitle bit of angular and laravel.'
+				shortDesc: '4+ years experience as front end web developer. I am a heavy user of development tools like vueJs/nuxtJs and ReactJs for complex User interface, AlpineJS for a little sprinkle of DOM reactivity and behavior paired with tailwindCSS to rapidly build modern websites. Also includes a liitle bit of angular and laravel.'
 			}
 		}
 	},
@@ -175,7 +178,7 @@ export default {
 		},
 		handleScroll () {
 			this.scrolled = window.scrollY > 300;
-  	}
+  }
 	},
 	mounted () {
 		window.addEventListener('scroll', this.handleScroll);
